@@ -1,1 +1,96 @@
+body {
+  /*background-image: url("images/header.png");*/
+  background-image: linear-gradient(purple, red, blue);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin: 0;
+  background-color: black;
+}
 
+div {
+  /* a "div" is like a box you can put web elements in. I place paragraphs
+and images in "divs" and then move them around the page. */
+  padding: 15px;
+  margin: 15px;
+  background: black;
+}
+
+img {
+  width: 100%;
+  /* all images will be 100% of the div boxes they are in.*/
+}
+
+p {
+  background: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', sans-serif;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #aa04a2;
+  color: white;
+}
+
+#bio {
+  background: black;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+#bkgnd {
+  position: fixed;
+  /* "fixed" makes sure that the background stays in one place even if you scroll.*/
+  z-index: -1;
+  /* the "-1" makes sure the background images shows up behind the webpage content.*/
+  width: 100%;
+  /* "100%" makes the image the full width of the webpage.*/
+}
+
+.img_right {
+  width: 50%;
+  float: right; /* this is like when you change the alignment in word processing software.
+  if you "float" to the right, then the div aligns the element to the right of the page instead of the left.*/
+}
+
+.img_left {
+  width: 50%;
+  float: left;
+}
+
+.text_right {
+  width: 40%;
+  float: right;
+}
+
+.text_left {
+  width: 40%;
+  float: left;
+}

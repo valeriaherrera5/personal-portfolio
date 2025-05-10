@@ -1,32 +1,54 @@
 body {
   /*background-image: url("images/header.png");*/
-  background-image: linear-gradient(purple, red, blue);
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  margin: 0;
-  background-color: black;
+  background-image: linear-gradient(AliceBlue, LightBlue, LightSkyBlue);
+  color: black;
+  margin: 25px 25px 25px 25px;
+  text-align: center
+  font-family: "Playwrite DK Loopet", cursive;
+  font-size: 30px;
+ 
 }
+
 
 div {
   /* a "div" is like a box you can put web elements in. I place paragraphs
 and images in "divs" and then move them around the page. */
-  padding: 15px;
-  margin: 15px;
-  background: black;
+  font-family: "Playwrite DK Loopet", cursive;
+  font-size:40px;
+  margin: 25px 25px 25px 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    height: 100%;
 }
 
 img {
-  width: 100%;
-  /* all images will be 100% of the div boxes they are in.*/
+    max-width: 100%;
+    height: auto;
+  
+
+h1 {
+  font-family: "Playwrite DK Loopet", cursive;
+  font-size: 70px;
+  margin: 25px 25px 25px 25px;
+  font-weight: bold;
 }
 
-p {
-  background: black;
+h2 {
+  font-family: "Playwrite DK Loopet", cursive;
+  font-size: 40px;
+  margin: 25px 25px 25px 25px;
+  font-weight: normal;
+  text-align: center;
 }
 
-h1, h2, h3 {
-  font-family: 'Acme', sans-serif;
-}
 
 ul, ol {
   list-style-position: inside;
@@ -59,7 +81,7 @@ ul, ol {
 }
 
 #bio {
-  background: black;
+  background: white;
   margin: 0px;
   padding: 10px;
   text-align: center;
@@ -72,25 +94,4 @@ ul, ol {
   /* the "-1" makes sure the background images shows up behind the webpage content.*/
   width: 100%;
   /* "100%" makes the image the full width of the webpage.*/
-}
-
-.img_right {
-  width: 50%;
-  float: right; /* this is like when you change the alignment in word processing software.
-  if you "float" to the right, then the div aligns the element to the right of the page instead of the left.*/
-}
-
-.img_left {
-  width: 50%;
-  float: left;
-}
-
-.text_right {
-  width: 40%;
-  float: right;
-}
-
-.text_left {
-  width: 40%;
-  float: left;
 }
